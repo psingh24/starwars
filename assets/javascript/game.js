@@ -54,8 +54,7 @@ $(".char").each(function () {
         var characterState = "<p>" + characters[value].name + "</p>" +
             "<img class='img' src=" + characters[value].image + " alt=" + characters[value].name + " />" +
             "<p  >Health: " + characters[value].health + "</p>" +
-            "<p>Attack: " + characters[value].attack + "</p>" +
-            "<p>Counter Attack: " + characters[value].defenderAttack + "</p>"
+            "<p>Attack: " + characters[value].attack + "</p>" 
          characterDiv.html(characterState);
     })
 
@@ -149,8 +148,7 @@ $(".char").click(function () {
             characterState.html("<p>" + characters[value].name + "</p>" +
                 "<img class='img' src=" + characters[value].image + " alt=" + characters[value].name + " />" +
                 "<p>Health: " + characters[value].health + "</p>" +
-                "<p>Attack: " + characters[value].attack + "</p>" +
-                "<p>Counter Attack: " + characters[value].defenderAttack + "</p>");
+                "<p>Attack: " + characters[value].attack + "</p>" );
 
             // defender health is less than or equal to 0 remove him from that section
             if (characters[value].health <= 0) {
@@ -189,8 +187,7 @@ $(".char").click(function () {
             characterState.html("<p>" + characters[value].name + "</p>" +
                 "<img class='img' src=" + characters[value].image + " alt=" + characters[value].name + " />" +
                 "<p>Health: " + characters[value].health + "</p>" +
-                "<p>Attack: " + characters[value].attack + "</p>" +
-                "<p>Counter Attack: " + characters[value].defenderAttack + "</p>");
+                "<p>Attack: " + characters[value].attack + "</p>" );
 
 
             //If ther hero health is 0 or less do this...

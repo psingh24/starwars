@@ -40,7 +40,7 @@ $(document).ready(function () {
     var characters = {
         anaken: { name: "Anakin Skywalker", health: 100, defenderAttack: 25, image: "assets/images/anaken.png", attack: 10, increased: 10 },
         rey: { name: "Rey", health: 120, defenderAttack: 10, image: "assets/images/rey.png", attack: 8, increased: 8 },
-        kylo: { name: "Kylo Ren", health: 150, defenderAttack: 20, image: "/Users/Prabhdeepsingh/Desktop/Development/week-4-game/assets/images/kylo.png", attack: 7, increased: 7 },
+        kylo: { name: "Kylo Ren", health: 150, defenderAttack: 20, image: "assets/images/kylo.png", attack: 7, increased: 7 },
         maul: { name: "Darth Maul", health: 180, defenderAttack: 5, image: "assets/images/darthmaul.png", attack: 5, increased: 5 }
     };
 
